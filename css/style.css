@@ -881,6 +881,73 @@ Footer
     margin-right: -15px;
     margin-left: -15px;
 }
+.contact-socal ul {
+    display: inline-flex;
+}
+.contact-socal ul li {
+    list-style: none;
+    margin: 6px 10px 6px 0;
+    justify-content: center;
+}
+.contact-socal ul li img {
+    max-width: 35px;
+    max-height: 35px;
+}
+.info-box {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: #ffff;
+}
+.contact-socal ul li p{
+    color: #ffffff;
+}
+.contact-socal ul{
+    padding-left: 0px;
+}
+.info-footer-list{
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.footer-title {
+    color: #d3b673;
+    margin-bottom: 30px;
+    font-style: normal !important;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#footer .inner .ft-menu .ft-menu-nav li a {
+    color: #ffffff;
+    font-style: normal !important;
+    font-size: 14px;
+}
+.info-footer li{
+   margin: 6px 10px;
+}
+.bg-noindex{
+    z-index: 99999;
+}
+.ft-menu-nav li {
+    margin-bottom: 8px;
+}
+.footer-hr {
+    border-top: 1px solid #ffff;
+    margin: 15px 0;
+}
+.info-footer-list a{
+    color: #ffffff;
+}
+.title_footer{
+    color: #ffffff;
+}
+
+#footer{
+    background: url("../img/ft_bg_img.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
 /***********************************
 ************************************
 Responsive media queries
