@@ -948,6 +948,123 @@ Footer
     background-size: cover;
     position: relative;
 }
+.news{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.article-info {
+    padding: 15px 15px;
+    text-align: justify;
+}
+.article-info .article-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.btn-news a {
+    margin: 15px 0 0;
+}
+.article-info .article-desc {
+    color: #282828;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+.article-info .article-title {
+    color: #282828;
+    display: block;
+    font-family: Muli, sans-serif !important;
+    font-weight: bold !important;
+    text-decoration: unset;
+}
+.news-child{
+    display: flex;
+}
+.grid, .grid--rev, .grid--full, .grid-uniform {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+}
+.video-list .hg-item .hg-video {
+    width: 165px;
+    overflow: hidden;
+}
+.hg-item {
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.video-list .hg-item .hg-item-title {
+    color: #282828;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    left: auto;
+    width: 69%;
+    text-align: left !important;
+    padding: 0 15px 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.video-list {
+    padding-left: 30px;
+}
+.hg-item img {
+    width: 100%;
+    transform: scale(1);
+}
+.article-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    height: 46px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.ft-menu-nav li a{
+    color: #ffffff;
+}
+.banner-news .bg-color {
+    background: rgba(0, 0, 0, 0.5);
+    height: 50vh;
+}
+.banner-news{
+    background: url("../img/breadcrumb_bg5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-left: .3em solid transparent;
+}
+.ft-menu-nav{
+    padding-left: 10px;
+}
+a {
+    color: #282828;
+    text-decoration: none;
+    background: transparent;
+}
+a.btnToco {
+    outline: none;
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+    border: 1px solid #d3b673;
+    color: #fff;
+    background: #d3b673;
+}
 /***********************************
 ************************************
 Responsive media queries
